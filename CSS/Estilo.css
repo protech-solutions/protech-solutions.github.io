@@ -1,0 +1,217 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:azure;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    ;
+  }
+ 
+
+/*Logo - BANNNER*/
+
+  .logo {
+    margin-right: 20px;
+    
+  }
+  
+  .logo img {
+    height: 25px;
+    font-family: Georgia;
+    color:aqua;
+    
+  }
+  
+
+  h1 {
+    font-size: 20px; 
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-family: Georgia;
+  }
+  
+/*Estilo del MENU*/
+
+  nav {
+    background-color: #222;
+    color: #fff;
+    width: 160px;
+    position: fixed;
+    top: 81px;
+    left: 0;
+    height: calc(100% - 60px);
+    overflow-y: auto;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #444;
+  }
+  
+  nav ul li:last-child {
+    border-bottom: none;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    /*background-color: #555;*/
+    background-color: #5437d4;
+  }
+  
+  /*Cuerpo del INDEX */
+
+
+
+  main {
+    margin-left: 180px;
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .sub-text {
+    font-size: 1.25rem;
+    font-family: neue-haas-grotesk-text;
+    font-weight: 400;
+    color: #3b3f47;
+    text-align: justify;
+
+
+  }
+
+  #inicio {
+    display: flex;
+    align-items: center;
+  }
+
+
+  #servicios {
+    display: flex;
+    align-items: center;
+  }
+
+  #cliente img {
+    height: 70%;
+    width: 70%;
+
+
+  }
+
+
+
+  .contenido {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+
+  .presentacion{
+    max-width: 80%;
+    width: 25%;
+    height: 25%;
+
+
+  }
+
+
+/* Servicios*/
+
+#servicios .contenido {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual tamaño */
+  gap: 20px; 
+  align-items: start;
+  font-family: neue-haas-grotesk-text;
+
+  
+}
+
+.servicio {
+  background-color: #a2bbe0; /* Color de fondo para resaltar los bloques */
+  padding: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.servicio:hover {
+  background-color: #5892e9; 
+}
+
+.estilo2 {
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: center;
+    color: #f1f7fa;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  
+
+  }
+
+
+.estilo{
+
+    font-size: 25px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+
+
+  /*footer y redes sociales */
+
+  .redes-sociales {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 11px;
+    font-size: 15px;
+    font-family: 'Arial', sans-serif;
+    
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    /*position: fixed;*/
+    font-size: 10px;
+    bottom: 0;
+    left: 100px;
+    width: 100%;
+    z-index: 50;
+  }
+  
